@@ -1,0 +1,5 @@
+# Local review and generated artifacts
+tmp/
+*.tmp
+.DS_Store
+Thumbs.db
