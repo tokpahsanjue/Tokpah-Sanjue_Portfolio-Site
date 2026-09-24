@@ -199,7 +199,6 @@ body{font-size:1rem;line-height:1.65}
 /* Standalone section pages and a wider mobile-navigation breakpoint. */
 .section-page-main{min-height:calc(100vh - 82px);padding-top:20px;padding-bottom:40px}
 .section-page-main>.section{padding-left:0;padding-right:0}
-.page-loading{max-width:680px;margin:80px auto;color:var(--text-secondary);font-size:1rem}
 @media(max-width:1200px){
   .menu-toggle{display:flex;flex-direction:column;gap:5px;padding:12px;min-height:44px;min-width:44px;justify-content:center}
   .menu-toggle span{width:22px;height:1px;background:var(--ink)}

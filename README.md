@@ -11,7 +11,9 @@ Static portfolio website built with HTML, CSS, and vanilla JavaScript. No build 
 
 ## Local preview
 
-Use any local web server (rather than opening files directly) because the standalone section pages load their content from `index.html`.
+Open `index.html` directly in a browser, or use any local web server. Every navigation page contains its own content and works without fetching the homepage.
+
+Navigation order: Home, About, Certificates, Skills, Projects, Experience, Capabilities, Gallery. The homepage contains the introduction and contact section; the detailed portfolio content lives on its respective pages.
 
 ## Site structure
 

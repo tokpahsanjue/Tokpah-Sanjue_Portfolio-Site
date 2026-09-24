@@ -37,7 +37,12 @@ const navLinks = document.querySelector('.nav-links');
 const themeToggle = document.querySelector('.theme-toggle');
 const root = document.documentElement;
 
-const savedTheme = window.localStorage.getItem('portfolio-theme');
+let savedTheme;
+try {
+  savedTheme = window.localStorage.getItem('portfolio-theme');
+} catch {
+  // Theme controls still work when browser storage is unavailable.
+}
 if (savedTheme === 'light') root.classList.remove('dark-mode');
 
 const updateThemeControl = () => {
@@ -53,7 +58,11 @@ const updateThemeControl = () => {
 updateThemeControl();
 themeToggle?.addEventListener('click', () => {
   root.classList.toggle('dark-mode');
-  window.localStorage.setItem('portfolio-theme', root.classList.contains('dark-mode') ? 'dark' : 'light');
+  try {
+    window.localStorage.setItem('portfolio-theme', root.classList.contains('dark-mode') ? 'dark' : 'light');
+  } catch {
+    // Keep the selected theme for this page even if it cannot be saved.
+  }
   updateThemeControl();
 });
 
@@ -95,27 +104,6 @@ if (!reducedMotion.matches && 'IntersectionObserver' in window) {
 reducedMotion.addEventListener('change', (event) => {
   if (event.matches) showAllReveals();
 });
-
-const sectionPage = document.querySelector('[data-source-section]');
-if (sectionPage) {
-  const sourceSection = sectionPage.dataset.sourceSection;
-  fetch('index.html')
-    .then((response) => {
-      if (!response.ok) throw new Error('Portfolio content could not be loaded.');
-      return response.text();
-    })
-    .then((html) => {
-      const sourceDocument = new DOMParser().parseFromString(html, 'text/html');
-      const source = sourceDocument.querySelector(sourceSection);
-      if (!source) throw new Error('Requested portfolio section was not found.');
-      sectionPage.replaceChildren(source);
-      sectionPage.removeAttribute('aria-busy');
-    })
-    .catch(() => {
-      sectionPage.removeAttribute('aria-busy');
-      sectionPage.querySelector('.page-loading')?.removeAttribute('hidden');
-    });
-}
 
 const stats = document.querySelector('.hero-meta');
 if (stats) {
