@@ -250,3 +250,5 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--text-accent);outlin
   .reveal-enabled .reveal:not(.visible),.reveal{opacity:1;translate:none;transform:none}
   .certificate-card:hover,.capability-card:hover,.button:hover,.theme-toggle:hover,.corevista-logo:hover{transform:none}
 }
+
+.brand-photo{display:block;width:36px;height:36px;flex-shrink:0;border-radius:50%;object-fit:cover;object-position:center top}
