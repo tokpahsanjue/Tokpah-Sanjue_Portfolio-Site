@@ -2,6 +2,8 @@
 
 Static portfolio website built with HTML, CSS, and vanilla JavaScript. No build step is required.
 
+Responsive image exports and performance changes are documented in [PERFORMANCE.md](PERFORMANCE.md). Original photos and certificates are retained. The site uses local system fonts without external font requests.
+
 ## Publish with GitHub Pages
 
 1. Create a GitHub repository and upload this folder's contents to its default branch.

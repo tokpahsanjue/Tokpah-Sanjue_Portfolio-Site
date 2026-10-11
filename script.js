@@ -1,3 +1,7 @@
+const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+const lowData = Boolean(connection?.saveData || /(^|-)2g$/.test(connection?.effectiveType || ''));
+document.documentElement.classList.toggle('low-data', lowData);
+
 const certificateViewer = document.querySelector('.certificate-viewer');
 if (certificateViewer) {
   const content = certificateViewer.querySelector('.certificate-viewer-content');
@@ -14,7 +18,16 @@ if (certificateViewer) {
       preview.src = link.dataset.preview || link.href;
       preview.alt = name;
       preview.decoding = 'async';
+      const fallback = document.createElement('a');
+      fallback.href = link.href;
+      fallback.textContent = 'Open original certificate';
+      fallback.className = 'certificate-original';
+      preview.addEventListener('error', () => {
+        preview.remove();
+        fallback.textContent = 'Preview unavailable. Open original certificate';
+      }, { once: true });
       content.replaceChildren(preview);
+      content.append(fallback);
       certificateViewer.showModal();
       document.documentElement.classList.add('certificate-viewer-open');
     });
@@ -71,6 +84,18 @@ toggle?.addEventListener('click', () => {
   toggle.setAttribute('aria-expanded', String(isOpen));
 });
 
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && navLinks?.classList.contains('open')) {
+    navLinks.classList.remove('open');
+    toggle?.setAttribute('aria-expanded', 'false');
+    toggle?.focus();
+  }
+});
+window.matchMedia('(min-width: 1201px)').addEventListener('change', () => {
+  navLinks?.classList.remove('open');
+  toggle?.setAttribute('aria-expanded', 'false');
+});
+
 document.querySelectorAll('.nav-links a').forEach((link) => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('open');
@@ -119,7 +144,7 @@ const showAllReveals = () => {
   revealElements.forEach((element) => element.classList.add('visible'));
 };
 
-if (!reducedMotion.matches && 'IntersectionObserver' in window) {
+if (!lowData && !reducedMotion.matches && 'IntersectionObserver' in window) {
   revealObserver = new IntersectionObserver((entries) => {
     const entering = entries.filter((entry) => entry.isIntersecting);
     entering.forEach((entry, index) => {
@@ -168,7 +193,7 @@ if (stats) {
     };
     frame = window.requestAnimationFrame(animate);
   };
-  if (!reducedMotion.matches && 'IntersectionObserver' in window) {
+  if (!lowData && !reducedMotion.matches && 'IntersectionObserver' in window) {
     statObserver = new IntersectionObserver((entries) => {
       if (entries.some((entry) => entry.isIntersecting)) startCounters();
     }, { threshold: 0.4 });

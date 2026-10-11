@@ -257,3 +257,31 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--text-accent);outlin
 html{scroll-padding-top:100px}
 .nav-links>a[aria-current="location"]{color:var(--ink)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Local fonts render immediately, including offline and slow connections. */
+body,button{font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+.theme-toggle,.certificate-close{font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+.brand,.hero h1,.section-heading h2,.role h3,.capability-card h3,.cv-name,.contact h2,.hero-meta strong,.certificate-card h4,.certificate-group-heading,.gallery-page-main .section-heading h1,.certificate-viewer-header h2,.gallery-placeholder strong{font-family:system-ui,-apple-system,'Segoe UI',Arial,sans-serif}
+.hero h1 em,.section-heading em,.contact h2 em,.gallery-page-main .section-heading h1 em{font-family:Georgia,'Times New Roman',serif}
+img{max-width:100%}
+.about-grid>*,.corevista-grid>*,.capability-grid>*,.skills-grid>*,.hero-meta>*{min-width:0}
+.hero-actions,.hero-meta{flex-wrap:wrap}
+.hero-copy>*,.hero-visual{animation:none}
+.hero-text,.large-copy,.role-org,.eyebrow,.footer-links{overflow-wrap:anywhere}
+.certificate-viewer-content{position:relative;padding-bottom:52px}
+.certificate-original{position:absolute;bottom:8px;left:8px;right:8px;min-height:36px;display:flex;align-items:center;justify-content:center;padding:4px 8px;background:#0b1b33;color:#fff;text-align:center;font-size:.875rem;text-decoration:underline}
+.low-data .marquee,.low-data .floating-note,.low-data .profile-card:before,.low-data .hero-visual,.low-data .hero-copy>*{animation:none!important}
+.low-data .reveal{opacity:1;translate:none;transform:none;transition:none}
+.low-data .site-header{backdrop-filter:none;background:var(--paper)}
+.low-data{scroll-behavior:auto}
+@media(max-width:1200px){.nav-links{max-height:calc(100dvh - 82px);overscroll-behavior:contain}}
+@media(max-width:800px){.nav-links{max-height:calc(100dvh - 70px)}.hero h1{letter-spacing:-.055em}.eyebrow{line-height:1.6}}
+@media(max-width:380px){
+  .container{padding-left:16px;padding-right:16px}
+  .hero h1{font-size:clamp(2rem,11.5vw,2.75rem)}
+  .hero-actions{align-items:flex-start;gap:18px}
+  .hero-meta{gap:12px}.hero-meta div{flex-basis:80px}
+  .profile-top{flex-wrap:wrap}.profile-card{left:12px;right:12px;padding:12px}
+  .floating-note{max-width:calc(100% - 12px)}
+  .section-heading h2{font-size:2rem}.contact h2{font-size:2.375rem}
+}

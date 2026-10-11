@@ -1,0 +1,812 @@
+﻿[
+    {
+        "source":  "assets/gallery/20230405_171121.jpg",
+        "name":  "20230405_171121-480.jpg",
+        "width":  480,
+        "height":  233,
+        "originalBytes":  2523056,
+        "bytes":  24416,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/20230405_171121.jpg",
+        "name":  "20230405_171121-960.jpg",
+        "width":  960,
+        "height":  467,
+        "originalBytes":  2523056,
+        "bytes":  73803,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/20230407_151700.jpg",
+        "name":  "20230407_151700-480.jpg",
+        "width":  480,
+        "height":  233,
+        "originalBytes":  995501,
+        "bytes":  21488,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/20230407_151700.jpg",
+        "name":  "20230407_151700-960.jpg",
+        "width":  960,
+        "height":  467,
+        "originalBytes":  995501,
+        "bytes":  71319,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/20230410_114638.jpg",
+        "name":  "20230410_114638-480.jpg",
+        "width":  480,
+        "height":  233,
+        "originalBytes":  491336,
+        "bytes":  22475,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/20230410_114638.jpg",
+        "name":  "20230410_114638-960.jpg",
+        "width":  960,
+        "height":  467,
+        "originalBytes":  491336,
+        "bytes":  66980,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/403060846_4562051354021036_4399201991716798730_n.jpg",
+        "name":  "403060846_4562051354021036_4399201991716798730_n-480.jpg",
+        "width":  480,
+        "height":  679,
+        "originalBytes":  179745,
+        "bytes":  57062,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/403060846_4562051354021036_4399201991716798730_n.jpg",
+        "name":  "403060846_4562051354021036_4399201991716798730_n-960.jpg",
+        "width":  960,
+        "height":  1358,
+        "originalBytes":  179745,
+        "bytes":  143769,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/70728681_1680320172104858_7529544210710528000_n.jpg",
+        "name":  "70728681_1680320172104858_7529544210710528000_n-480.jpg",
+        "width":  480,
+        "height":  640,
+        "originalBytes":  123558,
+        "bytes":  54782,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/70728681_1680320172104858_7529544210710528000_n.jpg",
+        "name":  "70728681_1680320172104858_7529544210710528000_n-960.jpg",
+        "width":  720,
+        "height":  960,
+        "originalBytes":  123558,
+        "bytes":  104828,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/Cover 1.jpg",
+        "name":  "Cover 1-480.jpg",
+        "width":  480,
+        "height":  270,
+        "originalBytes":  167754,
+        "bytes":  28040,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/Cover 1.jpg",
+        "name":  "Cover 1-960.jpg",
+        "width":  960,
+        "height":  541,
+        "originalBytes":  167754,
+        "bytes":  75053,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/DSC_0117.JPG",
+        "name":  "DSC_0117-480.jpg",
+        "width":  480,
+        "height":  320,
+        "originalBytes":  1175203,
+        "bytes":  27598,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/DSC_0117.JPG",
+        "name":  "DSC_0117-960.jpg",
+        "width":  960,
+        "height":  640,
+        "originalBytes":  1175203,
+        "bytes":  73826,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/DSC_0118.JPG",
+        "name":  "DSC_0118-480.jpg",
+        "width":  480,
+        "height":  320,
+        "originalBytes":  432082,
+        "bytes":  31944,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/DSC_0118.JPG",
+        "name":  "DSC_0118-960.jpg",
+        "width":  960,
+        "height":  640,
+        "originalBytes":  432082,
+        "bytes":  90803,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/DSC_0121.JPG",
+        "name":  "DSC_0121-480.jpg",
+        "width":  480,
+        "height":  320,
+        "originalBytes":  1543306,
+        "bytes":  33831,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/DSC_0121.JPG",
+        "name":  "DSC_0121-960.jpg",
+        "width":  960,
+        "height":  640,
+        "originalBytes":  1543306,
+        "bytes":  97805,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG-20210319-WA0020.jpg",
+        "name":  "IMG-20210319-WA0020-480.jpg",
+        "width":  480,
+        "height":  641,
+        "originalBytes":  103024,
+        "bytes":  43406,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG-20210319-WA0020.jpg",
+        "name":  "IMG-20210319-WA0020-960.jpg",
+        "width":  958,
+        "height":  1280,
+        "originalBytes":  103024,
+        "bytes":  107199,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG-20210319-WA0023.jpg",
+        "name":  "IMG-20210319-WA0023-480.jpg",
+        "width":  480,
+        "height":  641,
+        "originalBytes":  125209,
+        "bytes":  51860,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG-20210319-WA0023.jpg",
+        "name":  "IMG-20210319-WA0023-960.jpg",
+        "width":  958,
+        "height":  1280,
+        "originalBytes":  125209,
+        "bytes":  130290,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG-20210319-WA0025.jpg",
+        "name":  "IMG-20210319-WA0025-480.jpg",
+        "width":  480,
+        "height":  641,
+        "originalBytes":  142053,
+        "bytes":  58650,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG-20210319-WA0025.jpg",
+        "name":  "IMG-20210319-WA0025-960.jpg",
+        "width":  958,
+        "height":  1280,
+        "originalBytes":  142053,
+        "bytes":  148194,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG-20240328-WA0021.jpg",
+        "name":  "IMG-20240328-WA0021-480.jpg",
+        "width":  480,
+        "height":  720,
+        "originalBytes":  294218,
+        "bytes":  48704,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG-20240328-WA0021.jpg",
+        "name":  "IMG-20240328-WA0021-960.jpg",
+        "width":  960,
+        "height":  1441,
+        "originalBytes":  294218,
+        "bytes":  135122,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20190926_083231.jpg",
+        "name":  "IMG_20190926_083231-480.jpg",
+        "width":  480,
+        "height":  233,
+        "originalBytes":  152594,
+        "bytes":  27959,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20190926_083231.jpg",
+        "name":  "IMG_20190926_083231-960.jpg",
+        "width":  960,
+        "height":  467,
+        "originalBytes":  152594,
+        "bytes":  81750,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20230621_152431664.jpg",
+        "name":  "IMG_20230621_152431664-480.jpg",
+        "width":  480,
+        "height":  853,
+        "originalBytes":  1062558,
+        "bytes":  49503,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20230621_152431664.jpg",
+        "name":  "IMG_20230621_152431664-960.jpg",
+        "width":  960,
+        "height":  1707,
+        "originalBytes":  1062558,
+        "bytes":  176234,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20230630_115819215.jpg",
+        "name":  "IMG_20230630_115819215-480.jpg",
+        "width":  480,
+        "height":  853,
+        "originalBytes":  2583060,
+        "bytes":  78307,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20230630_115819215.jpg",
+        "name":  "IMG_20230630_115819215-960.jpg",
+        "width":  960,
+        "height":  1707,
+        "originalBytes":  2583060,
+        "bytes":  226360,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20230905_124639279.jpg",
+        "name":  "IMG_20230905_124639279-480.jpg",
+        "width":  480,
+        "height":  853,
+        "originalBytes":  1900875,
+        "bytes":  51536,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20230905_124639279.jpg",
+        "name":  "IMG_20230905_124639279-960.jpg",
+        "width":  960,
+        "height":  1707,
+        "originalBytes":  1900875,
+        "bytes":  139846,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20230905_124651898_BURST000_COVER_TOP.jpg",
+        "name":  "IMG_20230905_124651898_BURST000_COVER_TOP-480.jpg",
+        "width":  480,
+        "height":  853,
+        "originalBytes":  4257722,
+        "bytes":  58355,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20230905_124651898_BURST000_COVER_TOP.jpg",
+        "name":  "IMG_20230905_124651898_BURST000_COVER_TOP-960.jpg",
+        "width":  960,
+        "height":  1707,
+        "originalBytes":  4257722,
+        "bytes":  215116,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20230908_125951498.jpg",
+        "name":  "IMG_20230908_125951498-480.jpg",
+        "width":  480,
+        "height":  270,
+        "originalBytes":  2354265,
+        "bytes":  27281,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20230908_125951498.jpg",
+        "name":  "IMG_20230908_125951498-960.jpg",
+        "width":  960,
+        "height":  540,
+        "originalBytes":  2354265,
+        "bytes":  81284,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20230929_104012602.jpg",
+        "name":  "IMG_20230929_104012602-480.jpg",
+        "width":  480,
+        "height":  270,
+        "originalBytes":  2554573,
+        "bytes":  23119,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20230929_104012602.jpg",
+        "name":  "IMG_20230929_104012602-960.jpg",
+        "width":  960,
+        "height":  540,
+        "originalBytes":  2554573,
+        "bytes":  69922,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20230929_104045705.jpg",
+        "name":  "IMG_20230929_104045705-480.jpg",
+        "width":  480,
+        "height":  270,
+        "originalBytes":  2059734,
+        "bytes":  25447,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20230929_104045705.jpg",
+        "name":  "IMG_20230929_104045705-960.jpg",
+        "width":  960,
+        "height":  540,
+        "originalBytes":  2059734,
+        "bytes":  70958,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20241125_102614_180.jpg",
+        "name":  "IMG_20241125_102614_180-480.jpg",
+        "width":  480,
+        "height":  1067,
+        "originalBytes":  2255704,
+        "bytes":  116018,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20241125_102614_180.jpg",
+        "name":  "IMG_20241125_102614_180-960.jpg",
+        "width":  960,
+        "height":  2133,
+        "originalBytes":  2255704,
+        "bytes":  382075,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20250403_125801_870@1550528227.jpg",
+        "name":  "IMG_20250403_125801_870@1550528227-480.jpg",
+        "width":  480,
+        "height":  1083,
+        "originalBytes":  913160,
+        "bytes":  121717,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20250403_125801_870@1550528227.jpg",
+        "name":  "IMG_20250403_125801_870@1550528227-960.jpg",
+        "width":  960,
+        "height":  2165,
+        "originalBytes":  913160,
+        "bytes":  412839,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_20250403_125825_949@1550528229.jpg",
+        "name":  "IMG_20250403_125825_949@1550528229-480.jpg",
+        "width":  480,
+        "height":  1083,
+        "originalBytes":  986783,
+        "bytes":  134904,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_20250403_125825_949@1550528229.jpg",
+        "name":  "IMG_20250403_125825_949@1550528229-960.jpg",
+        "width":  960,
+        "height":  2165,
+        "originalBytes":  986783,
+        "bytes":  451819,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_2909.JPG",
+        "name":  "IMG_2909-480.jpg",
+        "width":  480,
+        "height":  320,
+        "originalBytes":  2647347,
+        "bytes":  31994,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_2909.JPG",
+        "name":  "IMG_2909-960.jpg",
+        "width":  960,
+        "height":  640,
+        "originalBytes":  2647347,
+        "bytes":  96452,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_2961.JPG",
+        "name":  "IMG_2961-480.jpg",
+        "width":  480,
+        "height":  320,
+        "originalBytes":  2329494,
+        "bytes":  32254,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_2961.JPG",
+        "name":  "IMG_2961-960.jpg",
+        "width":  960,
+        "height":  640,
+        "originalBytes":  2329494,
+        "bytes":  97588,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_3504.jpg",
+        "name":  "IMG_3504-480.jpg",
+        "width":  480,
+        "height":  640,
+        "originalBytes":  342397,
+        "bytes":  38306,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_3504.jpg",
+        "name":  "IMG_3504-960.jpg",
+        "width":  960,
+        "height":  1280,
+        "originalBytes":  342397,
+        "bytes":  132030,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/IMG_3523.jpg",
+        "name":  "IMG_3523-480.jpg",
+        "width":  480,
+        "height":  640,
+        "originalBytes":  417668,
+        "bytes":  42913,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/IMG_3523.jpg",
+        "name":  "IMG_3523-960.jpg",
+        "width":  960,
+        "height":  1280,
+        "originalBytes":  417668,
+        "bytes":  155737,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/Screenshot 2024-11-09 091802.png",
+        "name":  "Screenshot 2024-11-09 091802-480.jpg",
+        "width":  480,
+        "height":  430,
+        "originalBytes":  527544,
+        "bytes":  43674,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/Screenshot 2024-11-09 091802.png",
+        "name":  "Screenshot 2024-11-09 091802-960.jpg",
+        "width":  637,
+        "height":  571,
+        "originalBytes":  527544,
+        "bytes":  67493,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/untitled.jpeg",
+        "name":  "untitled-480.jpg",
+        "width":  480,
+        "height":  853,
+        "originalBytes":  506168,
+        "bytes":  38993,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/untitled.jpeg",
+        "name":  "untitled-960.jpg",
+        "width":  960,
+        "height":  1707,
+        "originalBytes":  506168,
+        "bytes":  130085,
+        "variant":  960
+    },
+    {
+        "source":  "assets/gallery/WhatsApp Image 2024-12-29 at 05.25.08_6ab7db8d.jpg",
+        "name":  "WhatsApp Image 2024-12-29 at 05.25.08_6ab7db8d-480.jpg",
+        "width":  480,
+        "height":  636,
+        "originalBytes":  82542,
+        "bytes":  32272,
+        "variant":  480
+    },
+    {
+        "source":  "assets/gallery/WhatsApp Image 2024-12-29 at 05.25.08_6ab7db8d.jpg",
+        "name":  "WhatsApp Image 2024-12-29 at 05.25.08_6ab7db8d-960.jpg",
+        "width":  960,
+        "height":  1272,
+        "originalBytes":  82542,
+        "bytes":  86180,
+        "variant":  960
+    },
+    {
+        "source":  "assets/tokpah-headshot.png",
+        "name":  "tokpah-headshot-72.jpg",
+        "width":  72,
+        "height":  96,
+        "originalBytes":  1029773,
+        "bytes":  2172,
+        "variant":  72
+    },
+    {
+        "source":  "assets/tokpah-headshot.png",
+        "name":  "tokpah-headshot-320.jpg",
+        "width":  320,
+        "height":  427,
+        "originalBytes":  1029773,
+        "bytes":  20650,
+        "variant":  320
+    },
+    {
+        "source":  "assets/tokpah-headshot.png",
+        "name":  "tokpah-headshot-640.jpg",
+        "width":  640,
+        "height":  853,
+        "originalBytes":  1029773,
+        "bytes":  65449,
+        "variant":  640
+    },
+    {
+        "source":  "assets/corevista-dark.png",
+        "name":  "corevista-dark-400.png",
+        "width":  400,
+        "height":  400,
+        "originalBytes":  1246068,
+        "bytes":  218886,
+        "variant":  400
+    },
+    {
+        "source":  "assets/corevista-dark.png",
+        "name":  "corevista-dark-800.png",
+        "width":  800,
+        "height":  800,
+        "originalBytes":  1246068,
+        "bytes":  794688,
+        "variant":  800
+    },
+    {
+        "source":  "assets/certificates/previews/01-aws-certified-solutions-architect-associate.png",
+        "name":  "01-aws-certified-solutions-architect-associate-1400.jpg",
+        "width":  1188,
+        "height":  918,
+        "originalBytes":  79018,
+        "bytes":  76655,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/02-aws-certified-cloud-practitioner.png",
+        "name":  "02-aws-certified-cloud-practitioner-1400.jpg",
+        "width":  1188,
+        "height":  918,
+        "originalBytes":  78058,
+        "bytes":  73214,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/03-cloud-computing-program.png",
+        "name":  "03-cloud-computing-program-1400.jpg",
+        "width":  1400,
+        "height":  787,
+        "originalBytes":  1124989,
+        "bytes":  107376,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/05-aws-concepts.png",
+        "name":  "05-aws-concepts-1400.jpg",
+        "width":  1238,
+        "height":  711,
+        "originalBytes":  215652,
+        "bytes":  92521,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/06-aws-skill-builder-learner-guide.png",
+        "name":  "06-aws-skill-builder-learner-guide-1400.jpg",
+        "width":  1263,
+        "height":  893,
+        "originalBytes":  339712,
+        "bytes":  76718,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/07-aws-ai-practitioner-challenge.png",
+        "name":  "07-aws-ai-practitioner-challenge-1400.jpg",
+        "width":  1188,
+        "height":  918,
+        "originalBytes":  64086,
+        "bytes":  64538,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/09-fundamentals-of-machine-learning-and-artificial-intelligence.png",
+        "name":  "09-fundamentals-of-machine-learning-and-artificial-intelligence-1400.jpg",
+        "width":  1188,
+        "height":  918,
+        "originalBytes":  91128,
+        "bytes":  65185,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/10-ai-career-essentials.png",
+        "name":  "10-ai-career-essentials-1400.jpg",
+        "width":  1400,
+        "height":  787,
+        "originalBytes":  1038413,
+        "bytes":  101290,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/11-using-prompt-engineering-for-genai-models.png",
+        "name":  "11-using-prompt-engineering-for-genai-models-1400.jpg",
+        "width":  1263,
+        "height":  893,
+        "originalBytes":  922872,
+        "bytes":  109386,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/12-learn-python-machine-learning.png",
+        "name":  "12-learn-python-machine-learning-1400.jpg",
+        "width":  1400,
+        "height":  978,
+        "originalBytes":  375496,
+        "bytes":  98395,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/14-cybersecurity.png",
+        "name":  "14-cybersecurity-1400.jpg",
+        "width":  1165,
+        "height":  899,
+        "originalBytes":  2047062,
+        "bytes":  162797,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/15-introduction-to-cybersecurity.png",
+        "name":  "15-introduction-to-cybersecurity-1400.jpg",
+        "width":  1188,
+        "height":  918,
+        "originalBytes":  159044,
+        "bytes":  110233,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/16-ai-powered-cybersecurity-the-future-of-threat-detection-response.png",
+        "name":  "16-ai-powered-cybersecurity-the-future-of-threat-detection-response-1400.jpg",
+        "width":  1080,
+        "height":  810,
+        "originalBytes":  920871,
+        "bytes":  131223,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/18-operating-systems-basics.png",
+        "name":  "18-operating-systems-basics-1400.jpg",
+        "width":  918,
+        "height":  1188,
+        "originalBytes":  159665,
+        "bytes":  113027,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/19-networking-basics.png",
+        "name":  "19-networking-basics-1400.jpg",
+        "width":  918,
+        "height":  1188,
+        "originalBytes":  159665,
+        "bytes":  113027,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/20-introduction-to-iot.png",
+        "name":  "20-introduction-to-iot-1400.jpg",
+        "width":  1188,
+        "height":  918,
+        "originalBytes":  158403,
+        "bytes":  109983,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/21-intermediate-sql.png",
+        "name":  "21-intermediate-sql-1400.jpg",
+        "width":  1350,
+        "height":  779,
+        "originalBytes":  215491,
+        "bytes":  91560,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/22-advanced-wordpress-course-for-professionals.png",
+        "name":  "22-advanced-wordpress-course-for-professionals-1400.jpg",
+        "width":  1400,
+        "height":  1041,
+        "originalBytes":  329587,
+        "bytes":  75698,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/23-ms-excel-essentials-a-comprehensive-masterclass.png",
+        "name":  "23-ms-excel-essentials-a-comprehensive-masterclass-1400.jpg",
+        "width":  1263,
+        "height":  893,
+        "originalBytes":  230137,
+        "bytes":  80221,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/24-office-basic-office-professional.png",
+        "name":  "24-office-basic-office-professional-1400.jpg",
+        "width":  1262,
+        "height":  893,
+        "originalBytes":  1006881,
+        "bytes":  131205,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/26-president-s-youth-capacity-building-in-ict-2024.png",
+        "name":  "26-president-s-youth-capacity-building-in-ict-2024-1400.jpg",
+        "width":  1263,
+        "height":  893,
+        "originalBytes":  454165,
+        "bytes":  103592,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/27-social-behavioral-research-basic-refresher.png",
+        "name":  "27-social-behavioral-research-basic-refresher-1400.jpg",
+        "width":  1188,
+        "height":  918,
+        "originalBytes":  118407,
+        "bytes":  77239,
+        "variant":  1400
+    },
+    {
+        "source":  "assets/certificates/previews/28-certificate-of-recognition-biometric-voter-registration.png",
+        "name":  "28-certificate-of-recognition-biometric-voter-registration-1400.jpg",
+        "width":  1129,
+        "height":  770,
+        "originalBytes":  1320050,
+        "bytes":  119593,
+        "variant":  1400
+    }
+]
