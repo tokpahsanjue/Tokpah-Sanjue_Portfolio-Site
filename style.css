@@ -252,3 +252,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--text-accent);outlin
 }
 
 .brand-photo{display:block;width:36px;height:36px;flex-shrink:0;border-radius:50%;object-fit:cover;object-position:center top}
+
+/* Keep section anchors clear of the sticky navigation. */
+html{scroll-padding-top:100px}
+.nav-links>a[aria-current="location"]{color:var(--ink)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}

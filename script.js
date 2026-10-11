@@ -78,6 +78,38 @@ document.querySelectorAll('.nav-links a').forEach((link) => {
   });
 });
 
+// Mark the section nearest the sticky header as the current location.
+const sectionLinks = [...document.querySelectorAll('.nav-links a[href^="#"]')];
+const navigationSections = sectionLinks.map((link) => ({
+  link,
+  section: document.getElementById(link.hash.slice(1)),
+})).filter(({ section }) => section);
+if (navigationSections.length) {
+  const updateCurrentSection = () => {
+    const header = document.querySelector('.site-header');
+    const marker = (header?.getBoundingClientRect().height || 82) + 32;
+    let current = navigationSections[0];
+    navigationSections.forEach((item) => {
+      if (item.section.getBoundingClientRect().top <= marker) current = item;
+    });
+    navigationSections.forEach(({ link }) => {
+      if (link === current.link) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+  };
+  let navigationFrame;
+  window.addEventListener('scroll', () => {
+    if (navigationFrame) return;
+    navigationFrame = window.requestAnimationFrame(() => {
+      navigationFrame = null;
+      updateCurrentSection();
+    });
+  }, { passive: true });
+  window.addEventListener('resize', updateCurrentSection);
+  window.addEventListener('hashchange', updateCurrentSection);
+  updateCurrentSection();
+}
+
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const revealElements = document.querySelectorAll('.reveal');
 let revealObserver;
