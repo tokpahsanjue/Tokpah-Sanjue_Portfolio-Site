@@ -18,7 +18,9 @@ Navigation order: Home, About, Certificates, Skills, Projects, Experience, Capab
 ## Site structure
 
 - `index.html` — complete portfolio with section navigation
-- `about.html`, `experience.html`, `capabilities.html`, `skills.html`, `certificates.html` — standalone portfolio routes
-- `gallery.html` — work-photo gallery
-- `projects.html` — project page
+- `public/about.html`, `public/experience.html`, `public/capabilities.html`, `public/skills.html`, `public/certificates.html` — standalone portfolio routes
+- `public/gallery.html` — work-photo gallery
+- `public/projects.html` — project page
 - `assets/` — images, certificates, and gallery media
+
+All HTML pages except index.html live in public/, including 404.html. Shared styles, scripts, and assets stay in the root folder.
